@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<title>Računske operacije </title>
+</head>
+<body>
+    <script>
+        var a=parseFloat(prompt("Prvi broj:"));
+        var c=prompt("Unesite navedenu operaciju +,-,*,/");
+        var b=parseFloat(prompt("Drugi broj:"));
+        var x;
+        if(c=="+"){ x=a+b;
+             alert("Rezultat je:"+""+x) }
+        else if(c=="-"){ x=a-b;
+            alert("Rezultat je:"+""+x) }
+        else if(c=="*"){ x=a*b;
+            alert("Rezultat je:"+""+x)        }
+        else if(c=="/"){ x=a/b;
+            alert("Rezultat je:"+""+x)}
+         else{alert("Unesite adekvatanu operaciju +,-,*,/ ")}
+    </script>
+        
+</body>
+</html>
